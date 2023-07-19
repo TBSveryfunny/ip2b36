@@ -135,3 +135,9 @@ table td {
   background-color: #EEE;
 }
 
+@media only screen and (max-width: 460px) {
+  /* CSS ruleset */
+  section {
+    flex-direction: column;
+  }
+}
